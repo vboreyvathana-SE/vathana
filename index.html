@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✨ Welcome to Vathana's Ultimate Cyber-Home ✨</title>
+    <style>
+        /* 90s Web Aesthetics */
+        body {
+            background-color: #000080; /* Classic Navy Blue */
+            /* Optional: Un-comment the line below if you want that authentic 90s tiled space background */
+            /* background-image: url('https://web.archive.org/web/20091027083041im_/http://geocities.com/SiliconValley/Way/4405/stars.gif'); */
+            color: #FFFF00; /* Neon Yellow Text */
+            font-family: "Comic Sans MS", "Times New Roman", cursive, sans-serif;
+            margin: 20px;
+        }
+
+        a {
+            color: #00FFFF; /* Electric Cyan Links */
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        a:visited {
+            color: #FF00FF; /* Classic Purple Visited Links */
+        }
+
+        a:hover {
+            color: #00FF00; /* Lime Green on Hover */
+            background-color: #FF0000;
+        }
+
+        h1 {
+            color: #FF00FF; /* Fuchsia headers */
+            text-shadow: 2px 2px #000000;
+        }
+
+        h3 {
+            color: #00FF00; /* Neon Green subheaders */
+        }
+
+        /* 3D Chiseled Border for 90s UI feel */
+        .retro-table {
+            border: 4px outset #808080;
+            background-color: #000033;
+            padding: 10px;
+        }
+
+        .retro-box {
+            border: 3px double #FFFFFF;
+            padding: 15px;
+            background-color: #000055;
+        }
+
+        /* Animated under-construction look button */
+        button {
+            background-color: #FF0000;
+            color: white;
+            font-weight: bold;
+            border: 3px outset #FF9999;
+            cursor: pointer;
+            padding: 5px 10px;
+        }
+
+        button:active {
+            border: 3px inset #FF9999;
+        }
+
+        .blink {
+            animation: blinker 1s linear infinite;
+        }
+
+        @keyframes blinker {
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Welcome Marquee -->
+    <marquee bgcolor="#FF0000" scrollamount="5" style="color: white; font-weight: bold; font-size: 18px; border: 2px solid yellow;">
+        🔥🔥 WELCOME TO VATHANA'S SOFTWARE ENGINEERING PORTFOLIO! 🔥 LAYERED IN CYBERSPACE! 🔥 DON'T FORGET TO SIGN THE GUESTBOOK! 🔥🔥
+    </marquee>
+
+    <br>
+
+    <!-- Main Layout Table (The 90s way before Flexbox/Grid existed) -->
+    <table width="100%" border="0" cellpadding="10">
+        <tr>
+            <!-- Header Section -->
+            <td align="center" colspan="2" bgcolor="#000044" style="border: 4px groove #808080;">
+                <h1>💥 MY 90S PORTFOLIO ZONE 💥</h1>
+                <p><img src="https://web.archive.org/web/20090830050419im_/http://geocities.com/Athens/Acropolis/5815/line-rainbow.gif" width="100%" height="15" alt="Rainbow Line"></p>
+                <!-- Navigation -->
+                <font size="5">
+                    [ <a href="#home">Home</a> ] &nbsp;&nbsp;&nbsp;
+                    [ <a href="#about">About Me</a> ] &nbsp;&nbsp;&nbsp;
+                    [ <a href="#project">Cool Projects</a> ] &nbsp;&nbsp;&nbsp;
+                    [ <a href="#contact">Drop an Email</a> ]
+                </font>
+            </td>
+        </tr>
+
+        <!-- Home / Intro Row -->
+        <tr id="home">
+            <td width="70%" valign="top">
+                <br>
+                <h2><span class="blink">🌟</span> Hello, I'm Vathana <span class="blink">🌟</span></h2>
+                <h3>Welcome to my Digital Cosmos</h3>
+                <p>I am a student at <b>BELTEI-IU</b> Majoring in <b>Software Engineering</b>.</p>
+                <p>Below are the super awesome projects I have created with my classmates and by myself! Surf down the page to check them out!</p>
+                <br>
+                <a href="#project">
+                    <button>⚡ VIEW PROJECTS NOW! ⚡</button>
+                </a>
+            </td>
+            <td width="30%" align="center" valign="middle">
+                <!-- Avatar with retro border -->
+                <border width="5">
+                    <img src="image/may.jpg" width="200" height="200" border="5" style="border-color: #FF00FF;" alt="Vathana's Picture">
+                </border>
+                <br>
+                <i>"Surfing the Web since yesterday"</i>
+            </td>
+        </tr>
+
+        <!-- Divider Line -->
+        <tr>
+            <td colspan="2" align="center">
+                <hr size="5" color="#00FF00">
+            </td>
+        </tr>
+
+        <!-- About Me Section -->
+        <tr id="about">
+            <td colspan="2">
+                <center>
+                    <h1>🔥😎ABOUT ME😎🔥</h1>
+                </center>
+                
+                <table width="60%" align="center" class="retro-table" cellspacing="5">
+                    <tr>
+                        <td class="retro-box">
+                            <h2><u>Personal Files:</u></h2>
+                            <ul>
+                                <li><b>Full Name:</b> VUTHY BOREYVATHANA</li>
+                                <li><b>Gender:</b> Male</li>
+                                <li><b>TikTok Channel:</b> <a href="#">@vathana637</a></li>
+                                <li><b>Nationality:</b> Khmer</li>
+                            </ul>
+                            <p align="center"><font color="#FF00FF"><b>A Software Engineering Wannabe! 😎</b></font></p>
+                        </td>
+                    </tr>
+                </table>
+
+                <br><br>
+
+                <!-- Skills Section Box -->
+                <table width="90%" align="center" border="3" cellpadding="10" bgcolor="#000022" bordercolor="#00FFFF">
+                    <tr>
+                        <td align="center"><h3>💡 MY SKILLS 💡</h3></td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <!-- Skill Grid using Old-School Tables -->
+                            <table width="100%" border="0">
+                                <tr>
+                                    <td align="center" width="25%">
+                                        <font size="4"><b>C++</b></font><br>
+                                        <img src="image/C++.webp" width="100" height="100" border="2"><br>
+                                    </td>
+                                    <td align="center" width="25%">
+                                        <font size="4"><b>HTML 4.0</b></font><br>
+                                        <img src="image/html.webp" width="100" height="100" border="2">
+                                    </td>
+                                    <td align="center" width="25%">
+                                        <font size="4"><b>CSS</b></font><br>
+                                        <img src="image/css.webp" width="100" height="100" border="2">
+                                    </td>
+                                    <td align="center" width="25%">
+                                        <font size="4"><b>JAVASCRIPT</b></font><br>
+                                        <img src="image/javascript.webp" width="100" height="100" border="2">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- Divider Line -->
+        <tr>
+            <td colspan="2" align="center">
+                <hr size="5" color="#FF00FF">
+            </td>
+        </tr>
+
+        <!-- Projects Section -->
+        <tr id="project">
+            <td colspan="2">
+                <center>
+                    <h1>MY COOL PROJECTS </h1>
+                    <p>Click on the floppy disks (images) to download/view!</p>
+                </center>
+
+                <table width="100%" border="0" cellpadding="10">
+                    <tr>
+                        <!-- Project 1 -->
+                        <td align="center" width="33%">
+                            <table class="retro-table" width="200">
+                                <tr>
+                                    <td align="center">
+                                        <a href=""><img src="image/C++.webp" width="120" height="120" border="3"></a>
+                                        <h4>Hotel System v1.0</h4>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <!-- Project 2 -->
+                        <td align="center" width="33%">
+                            <table class="retro-table" width="200">
+                                <tr>
+                                    <td align="center">
+                                        <a href=""><img src="image/C++.webp" width="120" height="120" border="3"></a>
+                                        <h4>Banking System</h4>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <!-- Project 3 -->
+                        <td align="center" width="33%">
+                            <table class="retro-table" width="200">
+                                <tr>
+                                    <td align="center">
+                                        <a href="#"><img src="image/html.webp" width="120" height="120" border="3"></a>
+                                        <h4>E-Commerce Web</h4>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- Divider Line -->
+        <tr>
+            <td colspan="2" align="center">
+                <hr size="5" color="#FFFF00">
+            </td>
+        </tr>
+
+        <!-- Contact Section / Footer -->
+        <tr id="contact">
+            <td colspan="2" align="center" bgcolor="#000044" style="border: 4px groove #808080;">
+                <h2>📬 CONTACT THE WEBMASTER 📬</h2>
+                <p>Have an inquiries? Send an electronic mail message!</p>
+                <a href="mailto:your-email@here.com">
+                    <button style="font-size: 20px; padding: 10px;">📧 EMAIL ME NOW</button>
+                </a>
+                
+                <br><br>
+                
+                <!-- 90s Hit Counter Feature -->
+                <table border="1" bgcolor="black" cellpadding="5">
+                    <tr>
+                        <td>
+                            <font color="#00FF00" face="Courier" size="3">
+                                YOU ARE VISITOR NUMBER: <b>[ 0 0 2 9 4 8 1 ]</b>
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+                
+                <br>
+                <!-- Classic Badges -->
+                <font size="2" color="#FFFFFF">© 1999 Vathana. All Rights Reserved.</font>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
